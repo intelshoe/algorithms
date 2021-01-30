@@ -6,18 +6,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 ret = 0
 
-mult3 = 3
-
-mult5 = 5
-
-while mult3 < 1000 or mult5 < 1000:
-	if mult5 == mult3:
-		ret = ret + mult3
-	else:
-		ret = ret + mult3 + mult5
-
-	mult3 = mult3 + 3
-
-	mult5 = mult5 + 5
+for x in range(1000):
+	if x % 3 == 0 or x % 5 == 0:
+		ret += x
 
 print(f"The sum of all the multiples of 3 or 5 below 1000 is {ret}")
