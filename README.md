@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"></p>
+<p align="center"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fqph.fs.quoracdn.net%2Fmain-qimg-c4bd5888bea21df127351a418a55bf51&f=1&nofb=1"></p>
 
 Data Structures and Algorithms in C++ and Python3
 =================================================
