@@ -3,4 +3,5 @@
 Data Structures and Algorithms in C++ and Python3
 =================================================
 This is a place for me to practice and showcase data structures, algorithms, and other useful concepts using Python3.
-The project-euler folder contains my solutions to the math challenges on <a href="https://projecteuler.net/">projecteuler.net</a>.
+
+<ul><li>The project-euler folder contains my solutions to the math challenges on <a href="https://projecteuler.net/">projecteuler.net</a>.</li><ul>
