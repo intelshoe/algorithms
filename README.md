@@ -2,5 +2,5 @@
 
 Data Structures and Algorithms in C++ and Python3
 =================================================
-A place for me to practice and showcase example programs using data structures and algorithms with C++ and Python3.
+A place for me to practice and showcase example data structures and algorithms using C++ and Python3.
 In the project-euler folder are programming solutions to the math challenges on <a href="https://projecteuler.net/">projecteuler.net</a>.
