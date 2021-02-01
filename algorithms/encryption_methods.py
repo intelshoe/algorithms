@@ -7,8 +7,13 @@
 
 '''
 
-# Most effective way to encrypt data today?
+# Most effective ways to encrypt files?
 # 1) 2) 3) 4)
+
+
+
+
+# Most effective ways to encrypt hard disks?  cloud storage?
 
 
 
