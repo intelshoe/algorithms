@@ -2,7 +2,7 @@
 
 Data Structures and Algorithms in Python 3
 =================================================
-This is a place for me to practice and showcase data structures, algorithms, and other useful concepts using Python3.
+This is a place to practice and showcase data structures, algorithms, and other useful concepts using Python3.
 
 Directory information:
 <ul><li>The <b><a href="https://github.com/mellowpuppy/algorithms/tree/main/project-euler">project-euler</a></b> folder contains my solutions to the math challenges on <a href="https://projecteuler.net/">projecteuler.net</a>.</li>
