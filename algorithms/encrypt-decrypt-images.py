@@ -19,6 +19,7 @@ image = bytearray(image)
 key = 12
 
 for index, value in enumerate(image):
+   # ^ means bitwise exclusive XOR
    image[index] = value^key
 
 print("")
@@ -30,6 +31,7 @@ fo.close()
 image = bytearray(image)
 
 for index, value in enumerate(image):
+   # ^ means bitwise exclusive XOR
    image[index] = key^value
 
 fo = open("dtest.png", "wb")
