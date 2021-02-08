@@ -5,7 +5,7 @@ Simple way to encrypt and decrypt an image
 
 print("Looking for test.png in home directory.")
 # opening the file with option rb allows reading binary data
-fo = open("test.png", "rb")
+fo = open("\test.png", "rb")
 image = fo.read()
 fo.close()
 
@@ -19,7 +19,7 @@ for index, value in enumerate(image):
 
 print("/n")
 print("Image encrypted. Saving file as etest.png")
-fo = open("etest.png", "wb")
+fo = open("\etest.png", "wb")
 fo.write(image)
 fo.close()
 
@@ -28,7 +28,7 @@ image = bytearray(image)
 for index, value in enumerate(image):
    image[index] = key^value
 
-fo = open("Chapter6\d_ch6_secret_image.jpg", "wb")
+fo = open("\dtest.png", "wb")
 fo.write(image)
 fo.close()
 print("/n")
