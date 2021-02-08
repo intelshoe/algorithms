@@ -1,5 +1,5 @@
 '''
-Simple way to encrypt and decrypt an image
+Simple way to encrypt and decrypt an image without use of library.
 
 '''
 import sys
