@@ -7,3 +7,8 @@ This is a place to practice and showcase data structures, algorithms, and other 
 Directory information:
 <ul><li>The <b><a href="https://github.com/mellowpuppy/algorithms/tree/main/project-euler">project-euler</a></b> folder contains my solutions to the math challenges on <a href="https://projecteuler.net/">projecteuler.net</a>.</li>
 <ul>
+  
+  Ideas:
+  - Homemade encrypted chat? email? calls?
+  - water/Chemical analysis
+  - physical and virtual security automation
