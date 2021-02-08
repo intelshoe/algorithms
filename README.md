@@ -8,7 +8,7 @@ Directory information:
 <ul><li>The <b><a href="https://github.com/mellowpuppy/algorithms/tree/main/project-euler">project-euler</a></b> folder contains my solutions to the math challenges on <a href="https://projecteuler.net/">projecteuler.net</a>.</li>
 <ul>
  
-Random Ideas:
+Random Interests:
   - Homemade encrypted chat? email? calls?
   - data analysis (outguess?)
   - water/Chemical analysis
