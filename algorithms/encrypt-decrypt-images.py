@@ -32,6 +32,7 @@ image = bytearray(image)
 
 for index, value in enumerate(image):
    # ^ means bitwise exclusive XOR
+   # note the key and value positions opposite encryption above
    image[index] = key^value
 
 fo = open("dtest.png", "wb")
