@@ -10,5 +10,6 @@ Directory information:
  
 Random Ideas:
   - Homemade encrypted chat? email? calls?
+  - data analysis (outguess?)
   - water/Chemical analysis
   - physical and virtual security automation
