@@ -1,7 +1,7 @@
 '''
 Simple way to hide message in image
 
-Requires cryptography module, cryptosteganography, and python version 3.8:
+Using cryptography module, cryptosteganography, and python version 3.8:
 https://github.com/computationalcore/cryptosteganography
 
 '''
@@ -35,7 +35,11 @@ with open("dmsg.txt", "xb") as file:
 
 # Hide the msg in the image
 key2 = "Password"
-hide_me = CryptoSteganography(key2)
+hidden_key = CryptoSteganography(key2)
 orig_img = "test.png"
 img_out = "hidden_msg_in_img.png"
-hide_me.hide(orig_img, img_out, msg)
+hidden_key.hide(orig_img, img_out, msg)
+
+# reveal the hidden msg
+hidden_msg = hidden_key.retrieve(img_out)
+print(f"The image contains this text: \n{hidden_msg}")
