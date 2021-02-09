@@ -28,6 +28,7 @@ f = Fernet(key)
 emsg = f.encrypt(msg)
 print(emsg)
 
-# to open s.key
-# return open("s.key", "rb").read()
-
+# to decrypt the msg
+dmsg = f.decrypt(emsg)
+with open("dmsg.txt", "rb") as file:
+	file.write(dmsg)
