@@ -30,5 +30,5 @@ print(emsg)
 
 # to decrypt the msg
 dmsg = f.decrypt(emsg)
-with open("dmsg.txt", "rb") as file:
+with open("dmsg.txt", "xb") as file:
 	file.write(dmsg)
