@@ -5,6 +5,8 @@ Data Structures and Algorithms in Python 3
 This is a place to practice and showcase data structures, algorithms, and other useful concepts using Python3.
 
 Directory information:
-<ul><li>Encryption:</li><ul><li><a href="https://github.com/mellowpuppy/algorithms/blob/main/encryption/encrypt-decrypt-images.py">Encrypt/decrypt an image without additonal modules</a> and using bitwise exclusive (XOR) operator with image bytearray and key.</li></ul>
+<ul><li>Encryption:</li>
+<ul><li><a href="https://github.com/mellowpuppy/algorithms/blob/main/encryption/encrypt-decrypt-images.py">Encrypt/decrypt an image without additonal modules</a> and using bitwise exclusive (XOR) operator with image bytearray and key.</li>
+<li><a href="https://github.com/mellowpuppy/algorithms/blob/main/encryption/simple-image-steganography.py">Hide data in images</a> using cryptosteganography and cryptography modules.</ul>
 <li>The <a href="https://github.com/mellowpuppy/algorithms/tree/main/project-euler">project-euler</a> folder contains my solutions to the math challenges on <a href="https://projecteuler.net/">projecteuler.net</a>.</li>
 </ul>
