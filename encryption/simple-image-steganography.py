@@ -34,7 +34,8 @@ with open("dmsg.txt", "xb") as file:
 	file.write(dmsg)
 
 # Hide the msg in the image
-hide_me = CryptoSteganography(key)
+key2 = "Password"
+hide_me = CryptoSteganography(key2)
 orig_img = "test.png"
 img_out = "hidden_msg_in_img.png"
 hide_me.hide(orig_img, img_out, msg)
