@@ -32,3 +32,6 @@ print(emsg)
 dmsg = f.decrypt(emsg)
 with open("dmsg.txt", "xb") as file:
 	file.write(dmsg)
+
+# Hide the msg in the image
+hide_msg = CryptoSteganography(key)
