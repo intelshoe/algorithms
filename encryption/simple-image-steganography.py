@@ -1,12 +1,13 @@
 '''
 Simple way to hide message in image
 
-Requires cryptography module, cryptosteganography and python version 3.8:
+Requires cryptography module, cryptosteganography, and python version 3.8:
 https://github.com/computationalcore/cryptosteganography
 
 '''
 from cryptography.fernet import Fernet 
 from cryptosteganography import CryptoSteganography
+import sys
 
 # generate a key and store it in file named s.key
 key = Fernet.generate_key()
@@ -14,12 +15,19 @@ with open("s.key", "wb") as keyfile:
 	keyfile.write(key)
 
 # secret message to store in image
-msg = "The secret word is gravy!".encode()
+#filename from commandline
+file = sys.argv[1]
+#write msg to msg var
+with open(file, "rb") as file:
+	msg = file.read()
 
-# encrypt
+print(f"{msg}\n\n")
+	
+# encrypt msg
 f = Fernet(key)
 emsg = f.encrypt(msg)
 print(emsg)
 
-# to open s.key once stored
+# to open s.key
 # return open("s.key", "rb").read()
+
