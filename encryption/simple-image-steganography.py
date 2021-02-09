@@ -15,9 +15,9 @@ with open("s.key", "wb") as keyfile:
 	keyfile.write(key)
 
 # secret message to store in image
-#filename from commandline
+# filename from commandline
 file = sys.argv[1]
-#write msg to msg var
+# write msg to msg var
 with open(file, "rb") as file:
 	msg = file.read()
 
