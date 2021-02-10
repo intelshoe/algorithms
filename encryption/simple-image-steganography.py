@@ -3,7 +3,7 @@ Simple way to hide message in image
 
 Using cryptography module, cryptosteganography, and python version 3.8:
 https://github.com/computationalcore/cryptosteganography
-
+Please note this is pretty insecure.
 '''
 from cryptography.fernet import Fernet 
 from cryptosteganography import CryptoSteganography
